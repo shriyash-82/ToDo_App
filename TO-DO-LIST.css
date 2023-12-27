@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2,0,36);
+    color: aliceblue;
+
+height: 100vh;
+box-sizing: border-box;
+}
+
+#search{
+    margin-left: 600px;
+}
+.tasklist{
+    text-align: center;
+    margin-top: 50px;
+}
+.task-list{
+    /* padding: 100px; */
+    text-align: center;
+    margin-top: 30px;
+}
+.form{
+    /* padding: 100px; */
+    text-align: center;
+    margin-top: 50px;
+}
+.user-input{
+    flex: 1 1 0%;
+    background-color: grey;
+    padding: 0.9rem;
+    border-radius: 1rem;
+    margin-left: 10%;
+    color:black;
+    font-size:1.25rem;
+    width:20%
+
+}
+.user-input::placeholder{
+    color:blanchedalmond;
+}
+
+input{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+.button{
+    background-color: #0483aa;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:15px
+}
+.heading{
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-left: 600px;
+    /* padding-right: 200px; */
+
+}
+.editbutton{
+    background-color: #0483aa;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:15px
+
+}
+.deletebutton{
+    background-color: #0483aa;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:15px
+}
